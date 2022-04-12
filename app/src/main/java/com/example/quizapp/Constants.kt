@@ -4,6 +4,8 @@ import com.example.quizapp.Questions
 import com.example.quizapp.R
 
 object Constants {
+    const val name: String = "name"
+    const val score:String = "score"
 
     fun getQuestions():ArrayList<Questions>{
         val questionsList = ArrayList<Questions>()
@@ -22,13 +24,13 @@ object Constants {
         val que3 = Questions(
             3, "What Company does this logo belong to?", R.drawable.ic_logo3,
             "Messenger", "Whatsapp", "We Chat", "Telegram",
-            1
+            2
         )
         questionsList.add(que3)
         val que4 = Questions(
             4, "What Company does this logo belong to?", R.drawable.ic_logo4,
             "Viber", "Line", "IMO", "Discord",
-            1
+            4
         )
         questionsList.add(que4)
         val que5 = Questions(

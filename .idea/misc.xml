@@ -5,9 +5,13 @@
       <map>
         <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.112" />
         <entry key="app/src/main/res/drawable/border_bg.xml" value="0.112" />
+        <entry key="app/src/main/res/drawable/correct_answer.xml" value="0.112" />
         <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.112" />
+        <entry key="app/src/main/res/drawable/selected_button_border.xml" value="0.112" />
+        <entry key="app/src/main/res/drawable/wrong_answer.xml" value="0.112" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.33" />
         <entry key="app/src/main/res/layout/activity_quiz_questions.xml" value="0.21" />
+        <entry key="app/src/main/res/layout/activity_result.xml" value="0.25" />
       </map>
     </option>
   </component>

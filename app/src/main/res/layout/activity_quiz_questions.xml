@@ -114,17 +114,18 @@
             android:layout_margin="10dp"
             android:background="@drawable/border_bg"
             android:padding="10dp"
-            android:textColor="@color/grey"
             android:textSize="16sp"
             tools:text="Mc-Donald's"
             >
 
         </TextView>
         <Button
+            android:id="@+id/Submit"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Submit"
             android:textStyle="bold"
+            android:background="@color/purple"
             android:textSize="18sp">
 
         </Button>
