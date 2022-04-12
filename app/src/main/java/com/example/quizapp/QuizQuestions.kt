@@ -14,7 +14,7 @@ import android.widget.TextView
 import androidx.core.content.ContextCompat
 import kotlinx.android.synthetic.main.activity_quiz_questions.*
 
-class QuizQuestions : AppCompatActivity(), View.OnClickListener {
+class QuizQuestions : AppCompatActivity(){
      var questionsList: ArrayList<Questions>? = null
     private var name:String?=null
     private var score:Int = 0
@@ -142,7 +142,5 @@ class QuizQuestions : AppCompatActivity(), View.OnClickListener {
         view.background= ContextCompat.getDrawable(this, R.drawable.selected_button_border)
         view.typeface = Typeface.DEFAULT_BOLD
     }
-    override fun onClick(p0: View?) {
-        TODO("Not yet implemented")
-    }
+
 }
